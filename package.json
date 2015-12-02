@@ -1,7 +1,7 @@
 {
   "name": "hapi-webpack-asset",
   "description": "Load webpack assets from webpack config file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Tony Ye",
   "license": "MIT",
   "main": "index.js",
