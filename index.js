@@ -4,7 +4,7 @@ var fs = require('fs');
 
 exports.register = function (server, options, next) {
   options = Hoek.applyToDefaults({
-    assetPath: path.join(process.cwd(), 'webpack-assets.json')
+    assetPath: path.join(process.cwd(), 'webpack-assets.json'),
     devMode: false
   });
 
