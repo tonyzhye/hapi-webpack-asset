@@ -42,7 +42,7 @@ script(src='#{webpack_asset("javascript.main")}')
 
 Using in swig template
 ```
-<script src="{{webpack_asset('javascript.main')}}">
+<script src="{{webpack_asset('javascript.main')}}"></script>
 ```
 
 ## Options
